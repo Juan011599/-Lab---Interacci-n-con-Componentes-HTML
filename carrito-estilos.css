@@ -1,0 +1,56 @@
+/* Fuente linda desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: 'Pacifico', cursive;
+  background: linear-gradient(to bottom, #fdf6e3, #ffe4e1); /* degradado suave pastel */
+  margin: 0;
+  padding: 20px;
+  color: #4d2e1f;
+}
+
+h1 {
+  text-align: center;
+  color: #b76e79;
+  font-size: 2.5em;
+}
+
+.producto {
+  background-color: #ffffffdd;
+  border: 2px dashed #f8c8dc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(255, 182, 193, 0.2);
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ffb6c1;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+  background-color: #ff9aa2;
+}
+
+.resumen {
+  background-color: #fff0f5;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #ffc0cb;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.2);
+  margin-top: 30px;
+}
+
+.resumen {
+  background-color: #ffeeba;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ffc107;
+}

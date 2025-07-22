@@ -1,0 +1,42 @@
+body {
+  font-family: 'Metal Mania', cursive;
+  background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
+  color: #f0f0f0;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #ff3333;
+  text-shadow: 2px 2px 5px black;
+}
+
+.opcion {
+  margin: 20px auto;
+}
+
+button {
+  padding: 12px 24px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: 'Metal Mania', cursive;
+  background-color: #444;
+  color: #ffcc00;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffcc00;
+  color: #000;
+  transform: scale(1.05);
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+}

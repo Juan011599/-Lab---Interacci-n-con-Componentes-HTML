@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carro de Compras para Perros</title>
+  <link rel="stylesheet" href="carrito-estilos.css">
+</head>
+<body>
+  <h1>🐶 Tienda para Perros 🐩</h1>
+
+  <div class="producto">
+    <h2>Croquetas Premium</h2>
+     <img src="Agility-Gold-Cachorros-Primera-Fase-scaled.webp" alt="Croquetas Premium" width="150">
+    <p>Precio: $25</p>
+    <button onclick="agregarAlCarro('Croquetas Premium', 25)">Agregar al carro</button>
+  </div>
+
+  <div class="producto">
+    <h2>Juguete con sonido</h2>
+     <img src="OIP.webp" alt="Juguete con sonido" width="150">
+    <p>Precio: $15</p>
+    <button onclick="agregarAlCarro('Juguete con sonido', 15)">Agregar al carro</button>
+  </div>
+
+  <div class="producto">
+    <h2>Cama acolchada</h2>
+        <img src="CAMA-O.webp" alt="Cama acolchada" width="150">
+    <p>Precio: $30</p>
+    <button onclick="agregarAlCarro('Cama acolchada', 30)">Agregar al carro</button>
+  </div>
+
+  <div class="resumen">
+    <h3>Resumen del Carro:</h3>
+    <p>Total de items: <span id="total-productos">0</span></p>
+    <p>Total a pagar: $<span id="total-precio">0</span></p>
+    <button onclick="vaciarCarro()">Vaciar carro</button>
+  </div>
+
+  <script src="carrito-funciones.js"></script>
+</body>
+</html>
