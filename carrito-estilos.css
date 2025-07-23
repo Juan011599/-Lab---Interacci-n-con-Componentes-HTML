@@ -1,9 +1,8 @@
-/* Fuente linda desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
   font-family: 'Pacifico', cursive;
-  background: linear-gradient(to bottom, #fdf6e3, #ffe4e1); /* degradado suave pastel */
+  background: linear-gradient(to bottom, #fdf6e3, #ffe4e1);
   margin: 0;
   padding: 20px;
   color: #4d2e1f;
